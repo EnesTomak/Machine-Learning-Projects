@@ -1,13 +1,9 @@
 import pandas as pd
 import numpy as np
 import warnings
-
-import pydotplus as pydotplus
 # görselleştirme kütüphaneleri
 import seaborn as sns
 import matplotlib.pyplot as plt
-from IPython.display import Image
-
 # makine öğrenimi kütüphaneleri
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
@@ -16,8 +12,6 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from lightgbm import LGBMClassifier
 from statsmodels.stats.outliers_influence import variance_inflation_factor
-
-
 
 # Ayarların yapılandırılması
 pd.set_option('display.max_columns', None)
